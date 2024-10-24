@@ -1,0 +1,70 @@
+*{
+    font-family: durbank;
+}
+
+@font-face {
+    font-family: Durbank;
+    src: url(fonts/durbank.ttf);
+}
+
+body{
+    background-color: #9CC1D8;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.container{
+    position: relative;
+    text-align: left;
+}
+
+#logohome{
+    position: absolute;
+    max-width: 375px;
+    margin-top: 2em;
+}
+
+#logonaam{
+    position: absolute;
+    font-family: durbank;
+    color: white;
+    font-size: 3em;
+    padding-left: 15px;
+    padding-top: 52px;
+    float: left;
+}
+
+#quote{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 375px;
+    font-size: 14px;
+    padding-top: 32em;
+    padding-bottom: 70px;
+}
+
+.welkom{
+    position: absolute;
+    text-align: center;
+    background-color: #A09682; 
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 30px solid transparent;
+    border-image-source: url(illustraties/Naamloos-10.png);
+    border-image-slice: 10%;
+    border-image-repeat: round;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+#intro{
+    text-align: left;
+    padding: 0px 10px;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
